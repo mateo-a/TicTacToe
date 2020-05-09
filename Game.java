@@ -16,7 +16,7 @@ public class Game {
          Scanner scan = new Scanner(System.in);
          System.out.println("Enter your placement (1-9):");
          int playerPos = scan.nextInt();
-         while(playerPositions.contains(playerPos) || cpuPositions.contains(playerPositions)){
+         while(playerPositions.contains(playerPos) || cpuPositions.contains(playerPos)){
            System.out. println("The position has been used yet. Select other position!") ;
            playerPos = scan.nextInt(); 
          }
